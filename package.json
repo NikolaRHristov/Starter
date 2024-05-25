@@ -1,7 +1,7 @@
 {
 	"name": "@nikolarhristov/starter",
 	"version": "0.0.1",
-	"private": false,
+	"private": true,
 	"description": "📄 Starter —",
 	"keywords": [
 		"astro",
@@ -58,6 +58,6 @@
 		"zod": "3.23.8"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "restricted"
 	}
 }
