@@ -21,6 +21,9 @@ export default (await import("astro/config")).defineConfig({
 	],
 	experimental: {
 		directRenderScript: true,
+		clientPrerender: true,
+		globalRoutePriority: true,
+		serverIslands: true,
 	},
 	vite: {
 		build: {
